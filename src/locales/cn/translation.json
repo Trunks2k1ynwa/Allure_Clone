@@ -1,0 +1,13 @@
+{
+  "introduction.title": "Allure 设计系统",
+  "introduction.label": "Allure 设计系统包括适用于 AvePoint 在线产品的样式和交互指南。这有助于为 AvePoint 的客户创建一致的用户体验。",
+  "introduction.subTitle": "WCAG 2.0 支持",
+  "introduction.subLabel": "Web 内容无障碍性指南（WCAG）2.0 包含了一系列推荐措施，旨在使 Web 内容更易访问。遵循这些指南，各种残障人士，如视觉、听觉、学习困难、认知障碍、运动障碍、语言障碍、年龄歧视以及它们的组合，都能够访问内容。遵循这些指南，通常情况下，Web 内容对一般用户也更加友好。",
+  "introduction.link": "WCAG 2.0 概述",
+  "introduction.environment": "环境支持",
+  "introduction.Installation": "安装",
+  "introduction.subInstall": "由于 Allure UI 托管在 Proget 的 avepoint-npm feed 上，您应该在 UI 项目的根文件夹下创建一个 .npmrc 文件。",
+  "introduction.uiInstall": "然后安装 Allure UI 包:",
+  "introduction.usage": "用法",
+  "introduction.labelUsage": "在您的 React 应用的根文件中导入 Allure UI 并设置相应的主题和语言。"
+}

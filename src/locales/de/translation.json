@@ -1,0 +1,13 @@
+{
+  "introduction.title": "Allure Design-System",
+  "introduction.label": "Das Allure Design-System umfasst sowohl einen Stil, der auf AvePoint-Online-Produkte angewendet werden kann, als auch Richtlinien für Interaktionen. Dies trägt dazu bei, ein konsistentes Benutzererlebnis für AvePoint-Kunden zu schaffen.",
+  "introduction.subTitle": "WCAG 2.0 Unterstützung",
+  "introduction.subLabel": "Die Richtlinien für die Barrierefreiheit von Webinhalten (WCAG) 2.0 decken eine breite Palette von Empfehlungen ab, um Webinhalte leichter zugänglich zu machen. Durch die Befolgung dieser Richtlinien können Menschen mit verschiedenen Beeinträchtigungen, wie Sehbehinderungen, Hörbehinderungen, Lernschwierigkeiten, kognitive Beeinträchtigungen, motorische Beeinträchtigungen, Sprachbarrieren, Altersdiskriminierung und deren Kombinationen, auf Inhalte zugreifen. In vielen Fällen wird die Benutzerfreundlichkeit von Webinhalten für allgemeine Benutzer durch die Einhaltung dieser Richtlinien ebenfalls verbessert.",
+  "introduction.link": "WCAG 2.0 Übersicht",
+  "introduction.environment": "Umweltunterstützung",
+  "introduction.Installation": "Installation",
+  "introduction.subInstall": "Da Allure UI auf dem Proget avepoint-npm-Feed gehostet wird, sollten Sie eine .npmrc-Datei im Stammverzeichnis Ihres UI-Projekts erstellen.",
+  "introduction.uiInstall": "Installieren Sie dann das Allure UI-Paket:",
+  "introduction.usage": "Verwendung",
+  "introduction.labelUsage": "Importieren Sie im Stammfile Ihrer React-App Allure UI und konfigurieren Sie das entsprechende Thema und die Sprache."
+}

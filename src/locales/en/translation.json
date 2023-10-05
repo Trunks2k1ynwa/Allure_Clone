@@ -1,0 +1,14 @@
+{
+  "introduction.title": "Allure Design System",
+  "introduction.label": "This Allure design system contains both style and interaction guideline which can be applied to the online products of AvePoint. It can help us to build a consistency user experience for AvePoint customers.",
+  "introduction.subTitle": "WCAG2.0 supported",
+  "introduction.subLabel": "Web Content Accessibility Guidelines (WCAG) 2.0 covers a wide range of recommendations for making Web content more accessible. Following these guidelines will make content accessible to a wider range of people with disabilities, including blindness and low vision, deafness and hearing loss, learning disabilities, cognitive limitations, limited movement, speech disabilities, photosensitivity and combinations of these. Following these guidelines will also often make your Web content more usable to users in general.",
+  "introduction.link": "WCAG 2 Overview",
+  "introduction.environment": "Environment Support",
+  "introduction.Installation": "Installation",
+  "introduction.subInstall": "Since Allure UI is hosted on the feed avepoint-npm of Proget, you should create a .npmrc file under the root folder of your UI project.",
+  "introduction.uiInstall": "Then install the Allure UI package:",
+  "introduction.usage": "Usage",
+  "introduction.labelUsage": "In the root file of your React App, import Allure UI and set the corresponding theme and language.",
+  "page.allure": "Allure Design System"
+}

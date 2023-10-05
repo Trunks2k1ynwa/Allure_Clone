@@ -1,0 +1,13 @@
+{
+  "introduction.title": "アリュールデザインシステム",
+  "introduction.label": "このAllureデザインシステムには、AvePointのオンライン製品に適用できるスタイルとインタラクションガイドラインの両方が含まれています。これは、AvePointの顧客に対して一貫したユーザーエクスペリエンスを構築するのに役立ちます。",
+  "introduction.subTitle": "WCAG 2.0サポート",
+  "introduction.subLabel": "ウェブコンテンツアクセシビリティガイドライン（WCAG）2.0は、ウェブコンテンツをよりアクセスしやすくするための幅広い推奨事項をカバーしています。これらのガイドラインに従うことで、視覚と聴覚、学習障害、認知制約、運動制約、言語制約、高齢者差別、およびこれらの組み合わせを含む、障害のある幅広い人々がコンテンツにアクセスできるようになります。これらのガイドラインに従うと、多くの場合、ウェブコンテンツは一般のユーザーにとっても使いやすくなります。",
+  "introduction.link": "WCAG 2の概要",
+  "introduction.environment": "環境サポート",
+  "introduction.Installation": "インストール",
+  "introduction.subInstall": "Allure UIはProgetのavepoint-npmフィードにホストされているため、UIプロジェクトのルートフォルダーに.npmrcファイルを作成する必要があります。",
+  "introduction.uiInstall": "次に、Allure UIパッケージをインストールします:",
+  "introduction.usage": "使用法",
+  "introduction.labelUsage": "React AppのルートファイルでAllure UIをインポートし、対応するテーマと言語を設定します。"
+}

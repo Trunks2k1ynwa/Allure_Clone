@@ -1,0 +1,51 @@
+.button-wrapper {
+  min-width: 80px;
+  height: 48px;
+  background-color: transparent;
+  white-space: nowrap;
+  width: 100%;
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  outline: transparent;
+  position: relative;
+  font-family: 'Open Sans', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(50, 62, 77);
+  letter-spacing: -0.21px;
+  border: none rgb(232, 233, 234);
+  border-radius: 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  padding: 0px 8px;
+  text-decoration: none;
+  text-align: center;
+  &:hover {
+    background-color: rgb(232, 233, 234);
+    color: rgb(50, 62, 77);
+    border-color: rgb(232, 233, 234);
+    & > span > i {
+      color: rgba(0, 119, 255, 0.945);
+    }
+  }
+  & span {
+    display: flex;
+    height: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    & i {
+      font-size: 14px;
+      margin: 0px;
+      height: 16px;
+      line-height: 16px;
+      text-align: center;
+      flex-shrink: 0;
+      color: rgb(148, 148, 148);
+      width: 24px;
+    }
+  }
+}

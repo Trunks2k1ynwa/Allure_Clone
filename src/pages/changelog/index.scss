@@ -1,0 +1,41 @@
+.text-span {
+  font-family: 'Open Sans', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(50, 62, 77);
+  letter-spacing: -0.21px;
+  display: inline;
+}
+.accordion-wrapper {
+  margin-left: 10px;
+  margin-bottom: 24px;
+  margin-top: 4px;
+  display: flex;
+  flex-flow: column;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  .accordion-item {
+    display: flex;
+    flex-flow: row;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    & span {
+      margin-left: 24px;
+      font-size: 14px;
+      color: rgb(50, 62, 77);
+      letter-spacing: -0.21px;
+    }
+    & a {
+      width: 88px;
+      font-size: inherit;
+      font-weight: inherit;
+      color: rgb(0, 114, 208);
+      letter-spacing: -0.21px;
+      outline: none;
+      text-decoration: none;
+    }
+  }
+}

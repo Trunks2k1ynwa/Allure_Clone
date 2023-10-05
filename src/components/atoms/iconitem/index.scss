@@ -1,0 +1,44 @@
+.icon-wrapper {
+  width: 155px;
+  height: 110px;
+  border: 1px solid rgb(242, 243, 244);
+  padding-top: 16px;
+  border-radius: 4px;
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 4px;
+  text-overflow: ellipsis;
+  max-width: calc(100% - 8px);
+  cursor: pointer;
+  &:hover {
+    border: 1px solid rgb(22, 139, 255);
+  }
+  .icon-wrapper_name {
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    & > i {
+      color: rgb(50, 62, 77);
+      font-size: 32px;
+    }
+  }
+  .icon-wrapper_text {
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    & > span {
+      font-size: 14px;
+      color: rgb(50, 62, 77);
+      font-weight: 600;
+      display: inline-block;
+      overflow-wrap: anywhere;
+      text-align: center;
+      width: 100%;
+    }
+  }
+}

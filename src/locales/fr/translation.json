@@ -1,0 +1,13 @@
+{
+  "introduction.title": "Système de conception Allure",
+  "introduction.label": "Ce système de conception Allure comprend à la fois un style applicable aux produits en ligne d'AvePoint et des directives d'interaction. Cela aide à créer une expérience utilisateur cohérente pour les clients d'AvePoint.",
+  "introduction.subTitle": "Prise en charge de WCAG 2.0",
+  "introduction.subLabel": "Les lignes directrices d'accessibilité au contenu Web (WCAG) 2.0 couvrent un large éventail de recommandations visant à rendre le contenu Web plus accessible. En suivant ces lignes directrices, les personnes ayant divers handicaps, tels que la vision, l'ouïe, les troubles d'apprentissage, les contraintes cognitives, les contraintes motrices, les contraintes linguistiques, la discrimination liée à l'âge, et leurs combinaisons, peuvent accéder au contenu. En suivant ces lignes directrices, dans de nombreux cas, le contenu Web devient également plus convivial pour les utilisateurs généraux.",
+  "introduction.link": "Aperçu de WCAG 2",
+  "introduction.environment": "Prise en charge de l'environnement",
+  "introduction.Installation": "Installation",
+  "introduction.subInstall": "Étant donné qu'Allure UI est hébergé sur la source avepoint-npm de Proget, vous devriez créer un fichier .npmrc sous le dossier racine de votre projet UI.",
+  "introduction.uiInstall": "Ensuite, installez le package Allure UI:",
+  "introduction.usage": "Utilisation",
+  "introduction.labelUsage": "Dans le fichier racine de votre application React, importez Allure UI et configurez le thème et la langue correspondants."
+}
