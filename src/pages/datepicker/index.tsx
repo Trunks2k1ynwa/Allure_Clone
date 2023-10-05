@@ -1,6 +1,8 @@
 import Heading from '@/atoms/heading'
 import { dataDatePickers } from './dataDatePickers'
 import UiCodeHighLight from '@/molecules/uicodehighlight'
+import { ErrorBoundary } from 'react-error-boundary'
+import FallbackRender from '@/atoms/FallBack'
 
 const DatePicker = () => {
   return (
@@ -13,7 +15,9 @@ const DatePicker = () => {
         <div key={`item ${index}`} className='heading-wrapper'>
           <Heading type='subheading'>{dataItem.title}</Heading>
           <p>{dataItem.label}</p>
+          <ErrorBoundary fallbackRender={FallbackRender}>
           <UiCodeHighLight codeString={dataItem.code} uiChildren={dataItem.ui} />
+          </ErrorBoundary>
         </div>
       ))}
     </section>

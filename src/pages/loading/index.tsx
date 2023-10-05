@@ -3,6 +3,8 @@ import UiCodeHighLight from '@/molecules/uicodehighlight'
 import * as React from 'react'
 import { Loading, TextField, PrimaryButton } from '@gui/fluent-ui-allure'
 import { DefaultButton, Modal, IModalStyles } from '@gui/fluent-ui-allure'
+import { ErrorBoundary } from 'react-error-boundary'
+import FallbackRender from '@/atoms/FallBack'
 
 const LoadingUi = () => {
   return (
@@ -18,9 +20,10 @@ const LoadingUi = () => {
       <div className='heading-wrapper'>
         <Heading>Loading inside a container</Heading>
         <p>When showing the loading indicator, it should block out the corresponding part/whole screen with a mask.</p>
-        <UiCodeHighLight
-          uiChildren={<SampleInside />}
-          codeString={`import * as React from 'react';
+        <ErrorBoundary fallbackRender={FallbackRender}>
+          <UiCodeHighLight
+            uiChildren={<SampleInside />}
+            codeString={`import * as React from 'react';
         import { Loading, TextField, PrimaryButton } from '@gui/fluent-ui-allure';
         
         
@@ -49,7 +52,8 @@ const LoadingUi = () => {
                 </div>
             );
         };`}
-        />
+          />
+        </ErrorBoundary>
       </div>
       <div className='heading-wrapper'>
         <Heading>Full screen loading</Heading>
@@ -57,7 +61,8 @@ const LoadingUi = () => {
           uiChildren={<SampleFullScreen />}
           codeString={`import * as React from "react";
           import { Loading, DefaultButton, Modal, IModalStyles } from "@gui/fluent-ui-allure";
-          
+          import { ErrorBoundary } from 'react-error-boundary';
+
           const style: React.CSSProperties = {
               backgroundColor: "#323E4D52",
               borderRadius: "5px",

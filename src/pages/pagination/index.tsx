@@ -1,6 +1,8 @@
 import Heading from '@/atoms/heading'
 import UiCodeHighLight from '@/molecules/uicodehighlight'
 import { dataPaginations } from './dataPaginations'
+import { ErrorBoundary } from 'react-error-boundary'
+import FallbackRender from '@/atoms/FallBack'
 
 const Pagination = () => {
   return (
@@ -17,8 +19,10 @@ const Pagination = () => {
       {dataPaginations.map((dataItem, index) => (
         <div key={`item ${index}`} className='heading-wrapper'>
           <Heading type='subheading'>{dataItem.title}</Heading>
-          <div>{dataItem.label && dataItem.label.map((item, index) => <p key={`item ${index}`}>{item}</p>)}</div>
-          <UiCodeHighLight codeString={dataItem.code} uiChildren={dataItem.ui} />
+          {/* <div>{dataItem.label && dataItem.label.map((item, index) => <p key={`item ${index}`}>{item}</p>)}</div> */}
+          <ErrorBoundary fallbackRender={FallbackRender}>
+            <UiCodeHighLight codeString={dataItem.code} uiChildren={dataItem.ui} />
+          </ErrorBoundary>
         </div>
       ))}
     </section>

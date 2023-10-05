@@ -775,7 +775,7 @@ export const SampleCustom: React.FunctionComponent = () => {
       return { key: index, text: `${index + 1}` }
     })
     paginationOptions.current = newOptions
-  }, [itemsTotalCount])
+  }, [])
 
   const onPageSelectedChange: (event: React.FormEvent, option: IDropdownOption<any>, index: number) => void = (
     _event,

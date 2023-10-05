@@ -1,6 +1,5 @@
-import { PrimaryButton } from '@gui/fluent-ui-allure'
+import { Pagination, PrimaryButton } from '@gui/fluent-ui-allure'
 import * as React from 'react'
-import Pagination from '..'
 
 export const SampleControlled = () => {
   const [pageNumber, setPageNumber] = React.useState(1)

@@ -11,11 +11,8 @@ import { useState } from 'react'
 const Introduction = () => {
   const [copy, setCopy] = useState<boolean>(false)
   const { t } = useTranslation()
-
   return (
     <section className='container-wrapper'>
-      <img className='logo' src='logo.png' alt='' />
-
       <div className='heading-wrapper'>
         <Heading>{t('introduction.title')}</Heading>
         <p>{t('introduction.label')}</p>
